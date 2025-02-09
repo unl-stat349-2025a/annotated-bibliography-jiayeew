@@ -1,5 +1,5 @@
 ---
-title: "Annotated Bibliography"
+title: "HW3-Annotated Bibliography"
 bibliography: references.bib
 csl: chicago-syllabus.csl
 suppress-bibliography: true
@@ -7,20 +7,27 @@ link-citations: false
 citations-hover: false
 ---
 
-# Annual Review Article
+# First Review Article: ImageNet Classification with Deep Convolutional Neural Networks
+- @krizhevskyImageNetClassificationDeep2012
 
-@annualrevarticle
+- This article is about training large, deep convolutional neural network (CNN) for image classification on a large dataset. It discusses the architecure, the training progress, the hyperparameter choice, weight initilization and learning rate adjustments which leads to a significant improvement in its classfication accuracy. The article also talks about the importance of the layers in the CNN architecure, where removing one layer will negatively impact performance, and how increasing its network size and training duration will consistently improve results. 
+
+- The three authors are all from the University of Toronto and they each contributed to different publications. This paper was published in the Neural Information Processing Systems (NeurIPS) conference, hence I believe that this article is reliable enough since it was part of a conference. This article is directly related to the topic because they introduce their CNN model, talks about the training adjustments, compares their model against previous approaches and discusses the importance of CNN architectures. 
 
 
-# References
+- Things I would need to know more about to fully understand the article:
+    - Stochastic gradient descent, and how is it different from a normal gradient descent.
+    - Local Response Normalization, and how is it different from a general normalization.
+    
+# Second Review Article: A survey of deep learning techniques for autonomous driving 
+- @grigorescuSurveyDeepLearning2020
 
-@ref1
+-  This article discusses the role of deep learning and AI in autonomous drving, identifying seven key challenges in the field. It covers the need for a better perception system for understanding driving environments, the need for short to middle‐term reasoning navigation, and the challenges of obtaining high-quality training data. It also talks about the difficulty of handling rare driving scenarios such as  turning a corner, identifying an obstacle while driving and how AI can improve vehicle control. It also discusses the technology and hardware used, the real-time computing and communication requirements while also addressing the safety concerns of an autonomous car. 
 
-- Summary
+- The authors are all from the University of Transilvania of Brasov. The authors all contributed to different publications. This article is also featured in the Journal of Field Robotics, hence, based on these reasons I believe this article is reliable enough. I believe that this article is highly relevant to the topic as it addresses the roles and challenges of AI and deep learning in autonomous vehicle.
 
-- Reliability and relationship to the topic
 
-- Missing pieces
-    - thing 1
-
-    - thing 2
+- Things I would need to know more about to fully understand the article:
+    - Partially observable Markov decision process (POMDP)
+    - Semantic segmentation
+    - Why do chips used in computational hardware have multiple cores, and what's the difference between each cores?
