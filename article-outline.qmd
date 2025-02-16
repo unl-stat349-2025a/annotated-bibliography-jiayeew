@@ -1,0 +1,91 @@
+---
+title: "HW4-Reverse Outline and Transitions"
+bibliography: references.bib
+csl: chicago-syllabus.csl
+suppress-bibliography: true
+link-citations: false
+citations-hover: false
+---
+
+# First Review Article: ImageNet Classification with Deep Convolutional Neural Networks
+- @krizhevskyImageNetClassificationDeep2012
+1. Introduction: 
+- Introduces object recognition, the role of machine learning, the need for larger datasets and the need for better GPUs
+- It smoothly introduces the problem, the results and the need for better data and GPUs
+- They could briefly introduce CNNs to provide some context, allowing the readers that are unfamiliar with the concept of CNN to grasp the basics early on
+
+2. Dataset: 
+- Explains why small datasets are inadequate for complex object recognition and why larger datasets are necessary. Also explains the importance of scaling up
+- I think it logically follows the introduction because a model cannot exist without data, which makes it natural to discuss datasets first before the model.
+- Could elaborate more on the limitation of small datasets. 
+
+3. Architecture
+- Introduces CNN architecture and its ability to capture local dependencies.
+- I think it connects well with the previous section by introducing CNN as the solution to the dataset limitations
+- Can include a brief comparison of CNNs to other traditional machine learning models used
+
+4. Reduce Overfitting
+- Discusses techniques used to reduce overfitting.
+- I think it connects well with the previous section by diving deeper into the model’s structure and improvements.
+- Could explain what PCA is 
+
+5. Details of Learning
+- Covers the hyperparameters used in training.
+- Follows logically by further explaining the architecture’s details.
+- Could explain stochastic gradient descent to understand better
+
+6. Results
+- Presents the results and provides test images.
+- Follows a natural progression, because I think it is the appropriate point to discuss performance.
+- Could explain Euclidean distance to clarify why did it use Euclidean when evaluating the model
+
+7. Discussion
+- Acknowledges the results and suggests possible improvements for better performance
+- I think it provides a natural conclusion by discussing future suggestion
+- Mentions that unsupervised pre-training could help but does not provide any evidence or hypotheses on how it might improve performance
+
+# Second Review Article: A survey of deep learning techniques for autonomous driving 
+- @grigorescuSurveyDeepLearning2020
+
+1. Introduction 
+- The introduction discusses early research in autonomous cars and how deep learning and AI have advanced computer vision, robotics, and NLP
+- It sets the stage by moving from the broader impact of AI to its specific role in autonomous vehicles (AVs)
+- It would be better to briefly mention the significance of deep learning before going deeper into AVs
+
+2. Deep Learning-Based Decision-Making Architectures Used in Self-Driving Cars
+- Introduces self-driving decision-making, two major AI architectures for decision-making, and components of the modular pipeline
+- The transition is smooth, but adding a short sentence at the end of the introduction to link AI challenges with decision-making architecture could improve flow
+- The section describes the two approaches, could have compare their strengths and weaknesses
+
+3. Overview of Deep Learning Technologies
+- The section covers methods like deep CNNs, RNNs, and deep reinforcement learning
+_ I think the transition into the core section on different deep learning methods is smooth as it clearly oultine the focus on CNNs, RNNs, and DRL.
+- Doesnt mention of supervised learning, because autonomous system normally uses supervised learning
+
+4. Deep Learning for Driving Scene Perception and Localization
+- Introduces sensing hardware, driving scene understanding, and areas that are still underdeveloped
+- The transition between Section 4.1 and Section 4.2 (Driving Scene Understanding) feels a bit abrupt. A brief linking sentence maybe would improve in understanding
+
+5. Deep Learning for Path Planning and Behavior Arbitration
+- Explains the role of path planning in autonomous driving and compares imitation learning and deep reinforcement learning
+- It mentions that IL struggles with rare scenarios and DRL has biases when moving from simulation to real-world settings, but it doesn’t provide solutions for these challenges
+
+6. Motion Controllers for AI-Based Self-Driving Cars
+- Discusses learning controllers and end-to-end learning
+- It mentions PilotNet’s similarity to human perception but doesn’t provide a detailed comparison of performance metrics between AI and human drivers
+
+7. Safety of Deep Learning in Autonomous Driving
+- It defines safety in machine learning and discusses challenges in DL-based safety assessment, real-world failures, and safety measures
+- It mentions ISO 26262, it doesn’t explore other regulations for AI safety in autonomous driving
+
+8. Data Sources for Training Autonomous Driving Systems
+- Talks about the importance of real-world data in training and testing autonomous systems
+- Challenges related to data privacy, ethical considerations in public data collection, and dataset representation are not discussed
+
+9. Computational Hardware and Deployment
+- It covers key hardware solutions for deep learning in autonomous vehicles
+- There is no direct comparison of computational capabilities, power consumption, or cost-effectiveness of the hardware solutions
+
+10. Discussion and Conclusions
+- Discusses how deep learning helps overcome challenges in autonomous vehicles.
+- Could explain more on how to improve the explainability of deep learning models, particularly in critical decision-making scenarios.
