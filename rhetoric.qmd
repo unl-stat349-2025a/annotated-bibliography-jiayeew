@@ -1,0 +1,29 @@
+---
+title: "HW5 - Rhetorical Choices and Key Arguments in 'A Brief Tour of Deep Learning from a Statistical Perspective'"
+bibliography: references.bib
+csl: chicago-syllabus.csl
+suppress-bibliography: true
+link-citations: false
+citations-hover: false
+---
+
+The article "A Brief Tour of Deep Learning from a Statistical Perspective" explains deep learning in a way that connects it to traditional statistics. The authors aim to make deep learning more understandable by comparing it to familiar statistical methods. They use rhetorical methods such as comparisons and examples to help guide the reader through complex ideas.
+
+One of the main arguments in the article is that deep learning is not completely separated from traditional statistics. The authors use examples from both fields to show how deep learning methods relate to well-known statistical techniques. They also point out that understanding both deep learning and traditional statistics can be very useful. Using both approaches together can help people make better decisions when analyzing data. This shows that deep learning is not just a replacement for traditional methods but rather a way to enhance the overall understanding of data analysis.
+
+The authors also address the limitations of deep learning. They argue that while it is powerful, it may not always be the best approach. They point out that deep learning requires a lot of data and computing power and that traditional methods can sometimes perform just as well with fewer resources. This balanced perspective strengthens their argument by acknowledging deep learning's strengths and weaknesses rather than promoting it as the perfect solution.
+
+Another important rhetorical choice is how they address the audience. Instead of assuming the reader is an expert in deep learning, they break down key ideas and explain how deep learning relates to familiar statistical methods. This makes the article more accessible to readers with a background in statistics but little experience with deep learning.
+
+Furthermore, the authors cite well-known research to build credibility for their arguments. They mention key studies, such as Cybenko (1989), on how neural networks can approximate any function and Dauphin et al. (2014) on challenges in training deep networks. The references they included help demonstrate that their arguments are based on solid research rather than personal opinions.
+
+In conclusion, the article’s arguments are effective because the authors use clear comparisons, acknowledge limitations, and explain ideas in a way that makes deep learning feel less intimidating and more like a natural extension of statistics. By bridging the gap between deep learning and statistics, the authors encourage readers to pursue deep learning techniques. This approach encourages statisticians to inquire further into deep learning, advancing the knowledge in the field and creating innovative solutions to many data analytical problems.
+
+
+
+# References
+@nalisnickBriefTourDeep2023
+
+@cybenko1989approximation
+
+@dauphin2014identifying
